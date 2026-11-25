@@ -1,0 +1,18 @@
+{
+  "name": "bubble-gun",
+  "version": "1.0.0",
+  "description": "Bubble Gun: app para descobrir eventos culturais em São Paulo, com visual chiclete.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "seed": "node --disable-warning=ExperimentalWarning scripts/seed.js",
+    "reset-demo": "node --disable-warning=ExperimentalWarning scripts/seed.js --reset-demo",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "license": "UNLICENSED"
+}
